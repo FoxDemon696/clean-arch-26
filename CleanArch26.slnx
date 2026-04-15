@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CleanArch26.Api/CleanArch26.Api.csproj" />
+    <Project Path="src/CleanArch26.Application/CleanArch26.Application.csproj" />
+    <Project Path="src/CleanArch26.Domain/CleanArch26.Domain.csproj" />
+    <Project Path="src/CleanArch26.Infrastructure/CleanArch26.Infrastructure.csproj" />
+  </Folder>
+</Solution>
