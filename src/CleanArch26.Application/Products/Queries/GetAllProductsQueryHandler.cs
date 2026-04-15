@@ -33,7 +33,7 @@ public sealed class GetAllProductsQueryHandler
                 product.Name,
                 product.Description,
                 product.Price,
-                product.Category,
+                product.Category.Name,
                 stockLevel);
         }));
 

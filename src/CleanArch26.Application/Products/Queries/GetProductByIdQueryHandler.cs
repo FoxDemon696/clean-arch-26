@@ -35,7 +35,7 @@ public sealed class GetProductByIdQueryHandler
             product.Name,
             product.Description,
             product.Price,
-            product.Category,
+            product.Category.Name,
             stockLevel);
     }
 }

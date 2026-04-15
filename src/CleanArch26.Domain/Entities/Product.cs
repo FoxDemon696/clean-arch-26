@@ -2,9 +2,12 @@ namespace CleanArch26.Domain.Entities;
 
 public class Product
 {
-    public Guid Id { get; init; }
-    public string Name { get; init; } = string.Empty;
-    public string Description { get; init; } = string.Empty;
-    public decimal Price { get; init; }
-    public string Category { get; init; } = string.Empty;
+    public Guid Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public decimal Price { get; set; }
+
+    // Foreign key + navigation to Category entity
+    public Guid CategoryId { get; set; }
+    public Category Category { get; set; } = null!;
 }
